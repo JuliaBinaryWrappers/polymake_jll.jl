@@ -108,14 +108,18 @@ function polymake_config(f::Function; adjust_PATH::Bool = true, adjust_LIBPATH::
 end
 
 
+# Inform that the wrapper is available for this platform
+wrapper_available = true
+
 """
 Open all libraries
 """
 function __init__()
-    global artifact_dir = abspath(artifact"polymake")
+    # This either calls `@artifact_str()`, or returns a constant string if we're overridden.
+    global artifact_dir = find_artifact_dir()
 
-    # Initialize PATH and LIBPATH environment variable listings
     global PATH_list, LIBPATH_list
+    # Initialize PATH and LIBPATH environment variable listings
     # From the list of our dependencies, generate a tuple of all the PATH and LIBPATH lists,
     # then append them to our own.
     foreach(p -> append!(PATH_list, p), (CompilerSupportLibraries_jll.PATH_list, FLINT_jll.PATH_list, GMP_jll.PATH_list, MPFR_jll.PATH_list, PPL_jll.PATH_list, Perl_jll.PATH_list, bliss_jll.PATH_list, boost_jll.PATH_list, cddlib_jll.PATH_list, lrslib_jll.PATH_list, normaliz_jll.PATH_list,))
@@ -125,14 +129,14 @@ function __init__()
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
-    global libpolymake_handle = dlopen(libpolymake_path)
+    global libpolymake_handle = dlopen(libpolymake_path, RTLD_LAZY | RTLD_DEEPBIND)
     push!(LIBPATH_list, dirname(libpolymake_path))
 
     global libpolymake_apps_rt_path = normpath(joinpath(artifact_dir, libpolymake_apps_rt_splitpath...))
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
-    global libpolymake_apps_rt_handle = dlopen(libpolymake_apps_rt_path)
+    global libpolymake_apps_rt_handle = dlopen(libpolymake_apps_rt_path, RTLD_LAZY | RTLD_DEEPBIND)
     push!(LIBPATH_list, dirname(libpolymake_apps_rt_path))
 
     global polymake_path = normpath(joinpath(artifact_dir, polymake_splitpath...))
@@ -174,4 +178,3 @@ function __init__()
    ENV["POLYMAKE_DEPS_TREE"] = artifact_path(polymake_tree_hash)
 
 end  # __init__()
-
