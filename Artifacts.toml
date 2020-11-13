@@ -1,28 +1,28 @@
 [[polymake]]
 arch = "x86_64"
-git-tree-sha1 = "f36589b6aa598ba4c9ec9a6b51c4d552660e7f97"
+git-tree-sha1 = "b3664d773bfac9ef6ed1acbc37245fbc098132f6"
 os = "macos"
 
     [[polymake.download]]
-    sha256 = "0a5843c20ba02ac4a5453391ee6267360aa982b27673e7986b4900975bb59040"
-    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v4.2.0+0/polymake.v4.2.0.x86_64-apple-darwin.tar.gz"
+    sha256 = "62c1a4560070e3f3dd5861c574520fbe54a38d5f120a4eb88b23457cb055d8a7"
+    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v4.2.1+0/polymake.v4.2.1.x86_64-apple-darwin.tar.gz"
 [[polymake]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "723af598bd41368189c23afc153cb69b1ac1f31f"
+git-tree-sha1 = "c3d2c254a75d4bff95904f45a90b5ea5fbd99b85"
 libc = "glibc"
 os = "linux"
 
     [[polymake.download]]
-    sha256 = "d3b339d0f42355050ad54722bc67bdc0fc19a8b755a3327e4fdc8004d8df31c5"
-    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v4.2.0+0/polymake.v4.2.0.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "094d74ed2f155fcb4e59fa72e639716e138ca1e6d61700988166e76e8c0983af"
+    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v4.2.1+0/polymake.v4.2.1.x86_64-linux-gnu-cxx03.tar.gz"
 [[polymake]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "fb7466b3165ef3deac1c49217c089680c699d016"
+git-tree-sha1 = "62c6aa0638e6f8b0d6988ee79e7f23405095559a"
 libc = "glibc"
 os = "linux"
 
     [[polymake.download]]
-    sha256 = "90464d40b530a9342591a72bf33a62e2848bd12de37decc63edf39ab43ad08be"
-    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v4.2.0+0/polymake.v4.2.0.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "2b407bd0880744fb8b0cf0f82a9bd18a38fdc710292a41772629655bdfd05a95"
+    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v4.2.1+0/polymake.v4.2.1.x86_64-linux-gnu-cxx11.tar.gz"
