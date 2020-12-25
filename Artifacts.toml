@@ -1,28 +1,28 @@
 [[polymake]]
 arch = "x86_64"
-git-tree-sha1 = "b3664d773bfac9ef6ed1acbc37245fbc098132f6"
+git-tree-sha1 = "2f02f0e01653e351fefbc71f13e45283d5c496e4"
 os = "macos"
 
     [[polymake.download]]
-    sha256 = "62c1a4560070e3f3dd5861c574520fbe54a38d5f120a4eb88b23457cb055d8a7"
-    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v4.2.1+0/polymake.v4.2.1.x86_64-apple-darwin.tar.gz"
+    sha256 = "23c8eed04b94ae3a9aa0ffa70eab972e4e342806e7a45256aee289da2a3f888d"
+    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.300.0+0/polymake.v400.300.0.x86_64-apple-darwin.tar.gz"
 [[polymake]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "c3d2c254a75d4bff95904f45a90b5ea5fbd99b85"
+git-tree-sha1 = "bc59b46b9b99739f900507915cf96228edda4ad9"
 libc = "glibc"
 os = "linux"
 
     [[polymake.download]]
-    sha256 = "094d74ed2f155fcb4e59fa72e639716e138ca1e6d61700988166e76e8c0983af"
-    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v4.2.1+0/polymake.v4.2.1.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "7054b0953827b39a81fda0c516976343006c08d33cf7f7ed84db7bf25e9e1068"
+    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.300.0+0/polymake.v400.300.0.x86_64-linux-gnu-cxx03.tar.gz"
 [[polymake]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "62c6aa0638e6f8b0d6988ee79e7f23405095559a"
+git-tree-sha1 = "97b6cbfc5868d786a40195fad324849a54c10204"
 libc = "glibc"
 os = "linux"
 
     [[polymake.download]]
-    sha256 = "2b407bd0880744fb8b0cf0f82a9bd18a38fdc710292a41772629655bdfd05a95"
-    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v4.2.1+0/polymake.v4.2.1.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "3864eafe138c2a9521295e07077d992f94b3ee08aed4cad676a8509538c15830"
+    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.300.0+0/polymake.v400.300.0.x86_64-linux-gnu-cxx11.tar.gz"
