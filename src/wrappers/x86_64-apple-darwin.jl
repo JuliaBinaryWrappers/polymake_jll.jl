@@ -28,13 +28,13 @@ function __init__()
     JLLWrappers.@init_library_product(
         libpolymake,
         "lib/libpolymake.4.3.dylib",
-        RTLD_LAZY | RTLD_DEEPBIND,
+        nothing,
     )
 
     JLLWrappers.@init_library_product(
         libpolymake_apps_rt,
         "lib/libpolymake-apps-rt.4.3.dylib",
-        RTLD_LAZY | RTLD_DEEPBIND,
+        nothing,
     )
 
     JLLWrappers.@init_executable_product(
