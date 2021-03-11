@@ -1,28 +1,28 @@
 [[polymake]]
 arch = "x86_64"
-git-tree-sha1 = "5d8c74123aa26ebb7573f5838fd4a65a28bbe466"
+git-tree-sha1 = "0222391ebc7b160454a6f6b7435823527da0775a"
 os = "macos"
 
     [[polymake.download]]
-    sha256 = "d18c1267e9fe62654ab6f76740da8601cec9d1510cf6bb22a50d74249684442b"
-    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.300.0+2/polymake.v400.300.0.x86_64-apple-darwin.tar.gz"
+    sha256 = "f8d1adc38dd8ce228247f424dd468a7bcfd3e23492dfbbccb69082284690f248"
+    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.300.1+0/polymake.v400.300.1.x86_64-apple-darwin.tar.gz"
 [[polymake]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "077439b5daa823d68c395fa03bd4b107d0463ec8"
+git-tree-sha1 = "188fbf393613a7b5c3d62997379a3ab35a6fe17a"
 libc = "glibc"
 os = "linux"
 
     [[polymake.download]]
-    sha256 = "d33b6081f7998d6fa629b77a8cbbdc1818531072aeb3d0007c338b15ed165c66"
-    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.300.0+2/polymake.v400.300.0.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "ecf19d0a8bf5ad54c41d278c91cb9b9bd24a41697055a93d03dce7f8b51f8d36"
+    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.300.1+0/polymake.v400.300.1.x86_64-linux-gnu-cxx03.tar.gz"
 [[polymake]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "b456b92b084de81cd9a4dd1e69d9e0d6e9ed663f"
+git-tree-sha1 = "1573202751ea069d56c245ae168d2937f43a29ec"
 libc = "glibc"
 os = "linux"
 
     [[polymake.download]]
-    sha256 = "adb480b61c415191a73db4f5cbf3122e47ea9e6cf4ec0d87e82ed643bebf9745"
-    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.300.0+2/polymake.v400.300.0.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "12a97c82380a605871b82a6ba5caff7cf7415568a3bb2719f3eea7ae9d0400bf"
+    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.300.1+0/polymake.v400.300.1.x86_64-linux-gnu-cxx11.tar.gz"
