@@ -15,8 +15,8 @@ using lrslib_jll
 using normaliz_jll
 JLLWrappers.@generate_wrapper_header("polymake")
 JLLWrappers.@declare_file_product(generate_deps_tree)
-JLLWrappers.@declare_library_product(libpolymake, "@rpath/libpolymake.4.4.dylib")
-JLLWrappers.@declare_library_product(libpolymake_apps_rt, "@rpath/libpolymake-apps-rt.4.4.dylib")
+JLLWrappers.@declare_library_product(libpolymake, "@rpath/libpolymake.4.5.dylib")
+JLLWrappers.@declare_library_product(libpolymake_apps_rt, "@rpath/libpolymake-apps-rt.4.5.dylib")
 JLLWrappers.@declare_executable_product(polymake)
 JLLWrappers.@declare_executable_product(polymake_config)
 function __init__()
@@ -28,13 +28,13 @@ function __init__()
 
     JLLWrappers.@init_library_product(
         libpolymake,
-        "lib/libpolymake.4.4.dylib",
+        "lib/libpolymake.4.5.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libpolymake_apps_rt,
-        "lib/libpolymake-apps-rt.4.4.dylib",
+        "lib/libpolymake-apps-rt.4.5.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
