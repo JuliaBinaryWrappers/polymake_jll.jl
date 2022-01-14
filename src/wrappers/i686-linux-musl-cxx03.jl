@@ -14,8 +14,8 @@ using lrslib_jll
 using normaliz_jll
 JLLWrappers.@generate_wrapper_header("polymake")
 JLLWrappers.@declare_file_product(generate_deps_tree)
-JLLWrappers.@declare_library_product(libpolymake, "libpolymake.so.4.5")
-JLLWrappers.@declare_library_product(libpolymake_apps_rt, "libpolymake-apps-rt.so.4.5")
+JLLWrappers.@declare_library_product(libpolymake, "libpolymake.so.4.6")
+JLLWrappers.@declare_library_product(libpolymake_apps_rt, "libpolymake-apps-rt.so.4.6")
 JLLWrappers.@declare_executable_product(polymake)
 JLLWrappers.@declare_executable_product(polymake_config)
 function __init__()

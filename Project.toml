@@ -1,6 +1,6 @@
 name = "polymake_jll"
 uuid = "7c209550-9012-526c-9264-55ba7a78ba2c"
-version = "400.501.0+0"
+version = "400.600.0+0"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
@@ -29,4 +29,4 @@ lrslib_jll = "~0.3.3"
 PPL_jll = "~1.2.1"
 normaliz_jll = "~300.900.100"
 FLINT_jll = "~200.800.401"
-bliss_jll = "~0.73.1"
+bliss_jll = "~0.77.0"
