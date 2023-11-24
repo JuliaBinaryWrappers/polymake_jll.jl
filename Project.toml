@@ -1,6 +1,6 @@
 name = "polymake_jll"
 uuid = "7c209550-9012-526c-9264-55ba7a78ba2c"
-version = "400.1100.0+0"
+version = "400.1100.1+0"
 
 [deps]
 GMP_jll = "781609d7-10c4-51f6-84f2-b8444358ff6d"
