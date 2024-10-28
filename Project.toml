@@ -1,6 +1,6 @@
 name = "polymake_jll"
 uuid = "7c209550-9012-526c-9264-55ba7a78ba2c"
-version = "400.1300.1+0"
+version = "400.1300.2+0"
 
 [deps]
 GMP_jll = "781609d7-10c4-51f6-84f2-b8444358ff6d"
@@ -29,7 +29,7 @@ boost_jll = "=1.76.0"
 JLLWrappers = "1.2.0"
 cddlib_jll = "~0.94.14"
 lrslib_jll = "~0.3.3"
-MongoC_jll = "~1.25.1"
+MongoC_jll = "~1.28.1"
 PPL_jll = "~1.2.1"
 Artifacts = "< 0.0.1, 1"
 SCIP_jll = "~800.0.301"
