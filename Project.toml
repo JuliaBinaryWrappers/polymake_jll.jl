@@ -1,6 +1,6 @@
 name = "polymake_jll"
 uuid = "7c209550-9012-526c-9264-55ba7a78ba2c"
-version = "400.1300.2+0"
+version = "400.1300.3+0"
 
 [deps]
 GMP_jll = "781609d7-10c4-51f6-84f2-b8444358ff6d"
@@ -23,10 +23,10 @@ bliss_jll = "508c9074-7a14-5c94-9582-3d4bc1871065"
 
 [compat]
 Libdl = "< 0.0.1, 1"
-normaliz_jll = "~300.1000.200"
-FLINT_jll = "~300.100.300"
+normaliz_jll = "~300.1000.201"
+FLINT_jll = "~300.200.0"
 boost_jll = "=1.76.0"
-JLLWrappers = "1.2.0"
+JLLWrappers = "1.7.0"
 cddlib_jll = "~0.94.14"
 lrslib_jll = "~0.3.3"
 MongoC_jll = "~1.28.1"
