@@ -1,208 +1,208 @@
 [[polymake]]
 arch = "aarch64"
-git-tree-sha1 = "d16f9062d81488a79f37edc873d7581169a0b7e4"
+git-tree-sha1 = "a1d17e64579ee1c94db55311842035948d16a93b"
 os = "macos"
 
     [[polymake.download]]
-    sha256 = "fcdb5bbc71716d6675bbfa2d93cc769231e4839adab8f1fc845bc06e36f34765"
-    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1400.0+0/polymake.v400.1400.0.aarch64-apple-darwin.tar.gz"
+    sha256 = "1e36e70abf87259f21a97efd74628bc5fa3da13147d1c37e3c0eef6dd1776b5a"
+    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1500.0+0/polymake.v400.1500.0.aarch64-apple-darwin.tar.gz"
 [[polymake]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "c72deb7ce89cc30eac38ef313d2ca0d2f46d36ef"
+git-tree-sha1 = "fad2618c2dbea1e4b5cc85a1351c6e4f81b2d089"
 libc = "glibc"
 os = "linux"
 
     [[polymake.download]]
-    sha256 = "9c75ce0a13b66c6480512999de606181a0094d1572e7d26a2f2e0089dca38af6"
-    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1400.0+0/polymake.v400.1400.0.aarch64-linux-gnu-cxx03.tar.gz"
+    sha256 = "e2441f41e283dc40ff643808d5cd70cae460211ae587ed54d20195a770a3d1db"
+    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1500.0+0/polymake.v400.1500.0.aarch64-linux-gnu-cxx03.tar.gz"
 [[polymake]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "3221dd30455dba05d1a5982a2ca79ad0327cf4a9"
+git-tree-sha1 = "2398f3f50c1258b6a9df2ba3754f6f29fdf5c8c3"
 libc = "glibc"
 os = "linux"
 
     [[polymake.download]]
-    sha256 = "3dc15b1c736d024de611cc7e2761aa6352ea7ab5a055bc1869d094bfc82b4fdd"
-    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1400.0+0/polymake.v400.1400.0.aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "b41ebf7ac495713225fa64b33ca43230cb4cf7c06aac12cc8813208db1cd44f8"
+    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1500.0+0/polymake.v400.1500.0.aarch64-linux-gnu-cxx11.tar.gz"
 [[polymake]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "045ebd2b28483751fbf2e5902a9835eb6619a4f0"
+git-tree-sha1 = "f4ce87870134182f192dc912cce8e8e0ee23fa62"
 libc = "musl"
 os = "linux"
 
     [[polymake.download]]
-    sha256 = "30b69c0ae9c12db6c3e636fbc9d6a2b55b281bf2eec34b4f650359c598b48db6"
-    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1400.0+0/polymake.v400.1400.0.aarch64-linux-musl-cxx03.tar.gz"
+    sha256 = "92e35ac3b8cdabb697bfe901238c64888aa21170c74008a6ee86ddbb664d096f"
+    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1500.0+0/polymake.v400.1500.0.aarch64-linux-musl-cxx03.tar.gz"
 [[polymake]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "37a49b65489ca520252cbc780aa002791a2b17af"
+git-tree-sha1 = "50ffa928734caac34263d698a118304df34c6bf7"
 libc = "musl"
 os = "linux"
 
     [[polymake.download]]
-    sha256 = "07fc2c5cc28d03c999509df3b0b0fae8c446eae3757f5c4a26a0354e51a4293e"
-    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1400.0+0/polymake.v400.1400.0.aarch64-linux-musl-cxx11.tar.gz"
+    sha256 = "1b944b3c45d9b2304477d58ec2595c715eed49531fd8617584e0ae84402a8af9"
+    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1500.0+0/polymake.v400.1500.0.aarch64-linux-musl-cxx11.tar.gz"
 [[polymake]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "978bd1a593b911196a65c8b41b58a154b0a09794"
+git-tree-sha1 = "913f5ce0d2fa25e4d14fc466ccfcbedbb10e6fc0"
 libc = "glibc"
 os = "linux"
 
     [[polymake.download]]
-    sha256 = "aedf9c4115f3db5ad854bea0e4ea0b3a52bc5c7c409ee71eba6a06c6122ee114"
-    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1400.0+0/polymake.v400.1400.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
+    sha256 = "c50430026c064e2a84a415ad4e548f78b0854ea634993c609d90dc22e57dddf3"
+    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1500.0+0/polymake.v400.1500.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
 [[polymake]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "45f46f1e06ee2f730936be5c995ecd82cbefaeae"
+git-tree-sha1 = "01ed1c023775ad0c96c48823f6f13f352ae5f1c5"
 libc = "glibc"
 os = "linux"
 
     [[polymake.download]]
-    sha256 = "00547a9edacc106229ff2bc1536a155cb259b2a210dd25bc1d5684d433ccdbce"
-    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1400.0+0/polymake.v400.1400.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "4d3aadd6b53a93ddbc054b77fbf3195c5c67012dd19faf58a0668281ce9d0ac8"
+    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1500.0+0/polymake.v400.1500.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
 [[polymake]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "c46d4ccfd191c6111a1fd6a13fee50481a3380f6"
+git-tree-sha1 = "70d588150f0f5f7f65a52f955043512f53dc6dc2"
 libc = "musl"
 os = "linux"
 
     [[polymake.download]]
-    sha256 = "b49f4fbdba5b5a9a0078feb7c59a1703ed5284394e44e28614cb41d2fc77ecca"
-    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1400.0+0/polymake.v400.1400.0.armv7l-linux-musleabihf-cxx03.tar.gz"
+    sha256 = "5d0e0e6d7c26587585c4e9915dda4945ffbd8914329231b41615d797a1082845"
+    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1500.0+0/polymake.v400.1500.0.armv7l-linux-musleabihf-cxx03.tar.gz"
 [[polymake]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "66ccf8475c6da9453e24f8fc54b6c83881259fdb"
+git-tree-sha1 = "501128425e73ab142897108a9b120b3280f1efb5"
 libc = "musl"
 os = "linux"
 
     [[polymake.download]]
-    sha256 = "6abfc0c283c35829af7ed2e8d4b254b7b9aae25670b62dfe8878675fc42c7ceb"
-    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1400.0+0/polymake.v400.1400.0.armv7l-linux-musleabihf-cxx11.tar.gz"
+    sha256 = "bc0ae88aab511a8c4efaab69515edad0f494c0bc32af99de77d3030a4f1351f0"
+    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1500.0+0/polymake.v400.1500.0.armv7l-linux-musleabihf-cxx11.tar.gz"
 [[polymake]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "e5a5a147f69cc7e24da93a12d96b5eb90e711533"
+git-tree-sha1 = "3508832883c166e5a467fa226a9519022581fb85"
 libc = "glibc"
 os = "linux"
 
     [[polymake.download]]
-    sha256 = "a4a323fc8c2934c2c8e65e406a850bdaf6d5a4e2f618a70c57789481a42b3124"
-    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1400.0+0/polymake.v400.1400.0.i686-linux-gnu-cxx03.tar.gz"
+    sha256 = "b9f8e71617d73976867ffbde6bbd1003f3376ca793ed36c318bd3ad7b5efdb81"
+    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1500.0+0/polymake.v400.1500.0.i686-linux-gnu-cxx03.tar.gz"
 [[polymake]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "5711f92241c30d2c180b7195fcc68860b05e11ae"
+git-tree-sha1 = "bd7aa47fe77d0fafecb6da9303bd169bc1d33718"
 libc = "glibc"
 os = "linux"
 
     [[polymake.download]]
-    sha256 = "ae6e2eae89ddfe4fd14aaa0d5af2ade7333ab46dd86a86fdb7174cbaea93a4b5"
-    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1400.0+0/polymake.v400.1400.0.i686-linux-gnu-cxx11.tar.gz"
+    sha256 = "93356abcc994943cea1546604783c18a406a16c2c8ac19bdad38c74b3a518875"
+    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1500.0+0/polymake.v400.1500.0.i686-linux-gnu-cxx11.tar.gz"
 [[polymake]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "1928c77bf2082fd3e06cecf68c824d4458228e43"
+git-tree-sha1 = "a50bbdf19b56dab80be7d5c69b95429625228a5d"
 libc = "musl"
 os = "linux"
 
     [[polymake.download]]
-    sha256 = "45c9f5260b5d33581c53d2b3263b30dfe974d42d83b6be5021131fe8965aedca"
-    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1400.0+0/polymake.v400.1400.0.i686-linux-musl-cxx03.tar.gz"
+    sha256 = "c0206e36063fcfc53ff9b815ace5a9efb818f3e29576b823b259bf5bc842fe53"
+    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1500.0+0/polymake.v400.1500.0.i686-linux-musl-cxx03.tar.gz"
 [[polymake]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "134e9b0ac28fed4bcdc20eec835e53647985bf02"
+git-tree-sha1 = "67903c6946fdc0866a7366e19ec2909c762f37ec"
 libc = "musl"
 os = "linux"
 
     [[polymake.download]]
-    sha256 = "6b9f47cce982a0a3a73c9db984ff1981b71281011852e3e3c26840316ee8d82b"
-    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1400.0+0/polymake.v400.1400.0.i686-linux-musl-cxx11.tar.gz"
+    sha256 = "f65006dfa51ee8e6f016bbb3595a435876da9355d4d82fc04fde7112cadb7298"
+    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1500.0+0/polymake.v400.1500.0.i686-linux-musl-cxx11.tar.gz"
 [[polymake]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "b1f9121a814af9b2903293144a0790fad6340bb7"
+git-tree-sha1 = "a4d4ee12a796e02aaad6448f978a8538ab3880cb"
 libc = "glibc"
 os = "linux"
 
     [[polymake.download]]
-    sha256 = "232dc6e1b275b354978290d6d2699826547467cc41e4ead1f5741928a75777e6"
-    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1400.0+0/polymake.v400.1400.0.powerpc64le-linux-gnu-cxx03.tar.gz"
+    sha256 = "86542a75818aa4d4dae990f4600161f85fb6c23c79095a3cf101fb751a0ffc04"
+    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1500.0+0/polymake.v400.1500.0.powerpc64le-linux-gnu-cxx03.tar.gz"
 [[polymake]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "f7fe497204af43e8e767f58226f26982bb11ef22"
+git-tree-sha1 = "2443bb97fe4ccef8d255ec7a88b65f6d6d3cd571"
 libc = "glibc"
 os = "linux"
 
     [[polymake.download]]
-    sha256 = "bb81fc5624fa7955cfb9924df7cb063b486947592541b9f4ae268492bd67748b"
-    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1400.0+0/polymake.v400.1400.0.powerpc64le-linux-gnu-cxx11.tar.gz"
+    sha256 = "7201d8e10f371a259cc0860579cd611fb969c6e04dcc63b12a428529dac2e6e2"
+    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1500.0+0/polymake.v400.1500.0.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[polymake]]
 arch = "x86_64"
-git-tree-sha1 = "2e72d93a9b5763a6ce4d2bec4582c92a0ea8f8ad"
+git-tree-sha1 = "5432c0f1ce2ba9e496573049af39efa662edda94"
 os = "macos"
 
     [[polymake.download]]
-    sha256 = "2d6dc49a707faee75fc034e97cba0c6e6f4c7c1ae7340fb590424ed00e10ba5b"
-    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1400.0+0/polymake.v400.1400.0.x86_64-apple-darwin.tar.gz"
+    sha256 = "0111adc269ce0426e44264663869257dc98c420bb5812c9c2534495bb456f0de"
+    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1500.0+0/polymake.v400.1500.0.x86_64-apple-darwin.tar.gz"
 [[polymake]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "63dd23a98c285d2f22d925df856d116d3cfca86f"
+git-tree-sha1 = "d9af43aaf20f2f58ce896673d34d1d06d37f6f53"
 libc = "glibc"
 os = "linux"
 
     [[polymake.download]]
-    sha256 = "59b4141888707aa7a2d577ae917fe99a69815f9e2d8427ed4ce1f09e26197589"
-    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1400.0+0/polymake.v400.1400.0.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "82b604da3b589307eceebd6b4dd89dc5f4240487edc0b1bbd59ea89157462ecc"
+    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1500.0+0/polymake.v400.1500.0.x86_64-linux-gnu-cxx03.tar.gz"
 [[polymake]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "b211f65b59aed5325ce3123f5823a7abb1d11d8c"
+git-tree-sha1 = "2826718aec98acb697d5d4ade802211559ffa8b2"
 libc = "glibc"
 os = "linux"
 
     [[polymake.download]]
-    sha256 = "426cd2f0252d2230e06742263015ee877f7c9b8bcc7e370658e6526120f43c88"
-    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1400.0+0/polymake.v400.1400.0.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "a35e5c0d2e8a2f2f18a738bf0d7c7bf6f1dd643168b911d3beb25a2e39aacaa7"
+    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1500.0+0/polymake.v400.1500.0.x86_64-linux-gnu-cxx11.tar.gz"
 [[polymake]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "2156315cea83cca3f293ed8f5a8283bec3302200"
+git-tree-sha1 = "a8c4a44ae11bb18d31fce8d14b11f50441a9a417"
 libc = "musl"
 os = "linux"
 
     [[polymake.download]]
-    sha256 = "ae9f9df82a2850f1b13aa75f4700cde15310bfa30d7e2bcf6c17dc651a9c8f40"
-    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1400.0+0/polymake.v400.1400.0.x86_64-linux-musl-cxx03.tar.gz"
+    sha256 = "92179ce9abd46d3bfa509c572cb3b13c9795342df724c2651830a1899eb60d6d"
+    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1500.0+0/polymake.v400.1500.0.x86_64-linux-musl-cxx03.tar.gz"
 [[polymake]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "9f82e57117e97ceaacbf02e0e11cd291f905fb3e"
+git-tree-sha1 = "6c53857023d776b3a85fc8dd844f6db6dbc44521"
 libc = "musl"
 os = "linux"
 
     [[polymake.download]]
-    sha256 = "360a785774cf468b679ba654f53766f2f1c23024d832bf9e3f4593b4ad2e8dcb"
-    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1400.0+0/polymake.v400.1400.0.x86_64-linux-musl-cxx11.tar.gz"
+    sha256 = "d6754f9969593a72775fc00b0775fc6a7f0a77a0bfb41b6473d1fc74a7947d2a"
+    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1500.0+0/polymake.v400.1500.0.x86_64-linux-musl-cxx11.tar.gz"
 [[polymake]]
 arch = "x86_64"
-git-tree-sha1 = "d1e086e422dc8b1538fc1c151146eb81103d4085"
+git-tree-sha1 = "3945672ebcf436ba7bbc77f8b921f35cb35630f8"
 os = "freebsd"
 
     [[polymake.download]]
-    sha256 = "1f5d56d2c7e5e2549f52ee3cd1dbb2695653259df1d38f83db009a6a2fd33ec4"
-    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1400.0+0/polymake.v400.1400.0.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "918d32465abe5f9ff935631d01d1ff473848936e16d39bf727b45c2259459714"
+    url = "https://github.com/JuliaBinaryWrappers/polymake_jll.jl/releases/download/polymake-v400.1500.0+0/polymake.v400.1500.0.x86_64-unknown-freebsd.tar.gz"
